@@ -77,6 +77,12 @@
  
   Dil olayının kullanılabilmesi için db deki setting tablosunda kırmızı alanla işaretlenen bölgedeki değişiklikler yapılmalıdır. Kızmızı nokta ile gösterilen satırlar eklenmeli default dil seçeneğide resimdeki gibi En yerine Tr yapılmalıdır.
   
+  ![ip2](https://user-images.githubusercontent.com/24636596/50735374-1af1f100-11bf-11e9-88a5-1b91ad500d75.jpg)
+
+ Datetime widgetinı kullanabilmek için gerekli adımlar
+  
+  
+  
   Modül ve portal sisteminde dahi yukarıda belirttiğimiz değişiklikler dışında birden çok değişiklik yapılmıştır. Fakat readme kısmını çok fazla uzatmamak adına hepsini tek tek burada fotoğraflarıyla açıklamak istemiyorum. Bunun yerine modüldeki dosyaları controllerları modelleri ve viewları yada portaldaki gerekli yerleri kontrol ederek yapılan değişikliklere daha detaylı olarak bakabilirsiniz.
   
   
