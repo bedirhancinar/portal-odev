@@ -5,7 +5,7 @@
 ### 1-) Portal içerisindeki composer.json dosyasında repositories bölümüne modülün linkini eklemek.
         {
             "type": "vcs",
-            "url": "https://github.com/bedirhancinar/portal-theme.git"
+            "url": "https://github.com/bedirhancinar/portal-odev.git"
         },
 ### 2-) Portal klasörünün içerisindeki portal/backend/config/main.php , portal/frontend/config/main.php , portal/api/config/main.php dosyalarındaki modules bölümüne kendi modülünüzü eklemeniz gerekmektedir.
         'odev' => [
