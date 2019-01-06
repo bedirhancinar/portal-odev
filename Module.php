@@ -20,6 +20,8 @@ class Module extends \kouosl\base\Module
     {
         parent::init();
 
+        $this->registerTranslations();
+
         // custom initialization code goes here
     }
     public function behaviors()
@@ -58,7 +60,7 @@ class Module extends \kouosl\base\Module
 
     public function registerTranslations()
     {
-        Yii::$app->i18n->translations['site/*'] = [
+        Yii::$app->i18n->translations['odev/*'] = [
             'class' => 'yii\i18n\PhpMessageSource',
             'sourceLanguage' => 'en-US',
             'basePath' => '@kouosl/odev/messages',

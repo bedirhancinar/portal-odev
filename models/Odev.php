@@ -3,6 +3,7 @@
 namespace kouosl\odev\models;
 
 use Yii;
+use kouosl\user\models\User;
 
 /**
  * This is the model class for table "odev".
@@ -40,6 +41,17 @@ class Odev extends \yii\db\ActiveRecord
             [['title'], 'string', 'max' => 255],
         ];
     }
+
+
+    public function getCategory()
+        {
+            return $this->hasOne(Odevcategory::className(), ['id' => 'id']);
+        }
+
+    public function getUser()
+            {
+                return $this->hasOne(User::className(), ['id' => 'userid']);
+            }
 
     /**
      * {@inheritdoc}

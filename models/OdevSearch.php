@@ -40,8 +40,7 @@ class OdevSearch extends Odev
      */
     public function search($params)
     {
-        $time=date('Y-m-d h:m:s');
-        $query = Odev::find()->where("startdate <= '$time' AND enddate >= '$time'")->andWhere(['status' => 'active'] );
+        $query = Odev::find();
 
         // ->where(['between', 'enddate', 'startdate', date('Y-m-d h:m:s')  ])->where(['between', 'enddate',  date('Y-m-d h:m:s') ,'enddate'- '0-0-0 0:0:1'  ])
 
